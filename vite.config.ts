@@ -8,4 +8,7 @@ export default defineConfig({
     exclude: ['lucide-react'],
   },
   base: '/JapanWebFont/',
+  build: {
+    outDir: 'docs',
+  },
 });
